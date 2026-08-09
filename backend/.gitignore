@@ -1,0 +1,28 @@
+# Virtual environment
+myenv/
+.venv/
+venv/
+env/
+
+# Python byte-compiled / optimized / dll files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# FastAPI / Uvicorn local files
+.env
+.env.*
+! .env.example
+.pytest_cache/
+.htmlcov/
+htmlcov/
+.coverage
+.coverage.*
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
