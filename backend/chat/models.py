@@ -15,6 +15,7 @@ class ChatThread(Base):
     Lightweight metadata table so we can list a user's chat threads per repo.
     The actual conversation state/messages live in LangGraph's checkpointer
     (chat/checkpointer.py), keyed by this same thread_id.
+    just the temp changes that we need to make the chat threads work in the backend. The actual conversation state/messages live in LangGraph's checkpointer (chat/checkpointer.py), keyed by this same thread_id.
     """
     __tablename__ = "chat_threads"
 
